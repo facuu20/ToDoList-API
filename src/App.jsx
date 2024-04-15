@@ -29,9 +29,9 @@ function App() {
     flexDirection:'column',
     height:'100%'}}>
         {palabra.map((word, index) => (
-          <section key={index}>
+          <li key={index}>
             {word}
-          </section>
+          </li>
         ))}
       </div>
     </>
